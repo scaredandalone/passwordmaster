@@ -1,6 +1,6 @@
 ## ## 
 
-Simple password program made with PYTHON
+Simple command line password program made with PYTHON
 
 
 ##
