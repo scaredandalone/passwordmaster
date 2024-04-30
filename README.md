@@ -1,26 +1,22 @@
-## ## 
+**Password Tool**
 
-Simple command line password program made with PYTHON
-
-
-##
-
-Type "check" to check for your password in known database breaches
---
-Uses HAVEIBEENPWNED's API to GET the number of times inputted password has been located in breaches
-
-
-##
-Type "generate" to generate a strong 10 character password
---
-Returns a random 10 character long ascii password
-
-##
-Type "examine" to examine your password strength
---
-Generates a list of the strengths and weaknesses of the inputted password
-
-##
-
+This command-line program, developed with Python, offers several functionalities for password management:
 #
-CS50 Intro to Python Programming FINAL PROJECT
+**Check for Breaches:**
+
+Type "check" to examine if your password has appeared in known database breaches.
+Utilizes the HaveIBeenPwned API to determine if your password has been compromised.
+#
+**Generate Strong Password:**
+
+Type "generate" to create a robust, randomly generated 10-character password.
+Returns a random password consisting of a combination of uppercase letters, lowercase letters, digits, and special characters.
+#
+**Examine Password Strength:**
+
+Type "examine" to assess the strength of your password.
+Generates a list detailing the strengths and weaknesses of the inputted password, such as length, presence of uppercase and lowercase letters, digits, and special characters.
+#
+**CS50 Intro to Python Programming Final Project**
+
+This project serves as the final submission for the CS50 Intro to Python Programming course. It aims to provide users with a simple yet effective tool for managing passwords, incorporating features like breach checking, password generation, and strength examination.
